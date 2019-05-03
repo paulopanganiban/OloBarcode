@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace OloApp.api.Migrations
+namespace OloApp.DotnetApi.Migrations
 {
     public partial class InitialCreate : Migration
     {

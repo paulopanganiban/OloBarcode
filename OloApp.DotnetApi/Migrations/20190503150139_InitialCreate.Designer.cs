@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using OloApp.api.Data;
+using OloApp.DotnetApi.Data;
 
-namespace OloApp.api.Migrations
+namespace OloApp.DotnetApi.Migrations
 {
     [DbContext(typeof(DataContext))]
     [Migration("20190503150139_InitialCreate")]

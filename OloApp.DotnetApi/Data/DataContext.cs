@@ -1,11 +1,12 @@
 using Microsoft.EntityFrameworkCore;
-using OloApp.api.Models;
+using OloApp.DotnetApi.Models;
 
-namespace OloApp.api.Data
+namespace OloApp.DotnetApi.Data
 {
     public class DataContext : DbContext
     {
         public DataContext(DbContextOptions<DataContext> options) : base (options) { }
         public DbSet<value> ValuesOlo { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

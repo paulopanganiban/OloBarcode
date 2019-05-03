@@ -1,4 +1,4 @@
-namespace OloApp.api.Models
+namespace OloApp.DotnetApi.Models
 {
     public class value
     {

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using OloApp.api.Data;
+using OloApp.DotnetApi.Data;
 
-namespace OloApp.api.Controllers
+namespace OloApp.DotnetApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
